@@ -22,7 +22,7 @@ const facts = [
 let newFacts = [];
 let i = 0;
 
-function johnLennonFacts(fact) {
+function johnLennonFacts(facts) {
   while (i < facts.length) {
     newFacts.push(fact[i] += '!!!');
     i++
@@ -30,4 +30,4 @@ function johnLennonFacts(fact) {
   return newFacts
 }
 
-johnLennonFacts();
+johnLennonFacts(facts);
