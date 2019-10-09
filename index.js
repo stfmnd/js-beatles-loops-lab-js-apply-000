@@ -20,15 +20,12 @@ const facts = [
   "He hated the sound of his own voice"
 ];
 
-let newFacts = [];
-let i = 0;
-
-function johnLennonFacts(factArray) {
-  while (i < facts.length) {
-    newFacts.push(facts[i] += '!!!');
-    i++
+  function johnLennonFacts(factsArray){
+  var i=0;
+  var newArray=[];
+  while (i < factsArray){
+  newArray.push(`${factsArray[i]}` + "!!!");
+  i++;
   }
-  return newFacts
-}
-
-johnLennonFacts(facts);
+  return newArray;
+  }
