@@ -36,7 +36,7 @@ const facts = [
 function iLoveTheBeatles(num) {
   var emptyArray = [];
   do {
-  i = num + 1
-  emptyArray.push(`"I love the Beatles!"`)
+  i = num + 1;
+  emptyArray.push(`"I love the Beatles!"`);
   } while 
 }
