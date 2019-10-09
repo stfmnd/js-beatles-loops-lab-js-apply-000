@@ -31,3 +31,8 @@ const facts = [
   }
   
   johnLennonFacts(facts);
+  
+// Task 3 
+function iLoveTheBeatles(num) {
+  
+}
