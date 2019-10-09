@@ -29,3 +29,5 @@ const facts = [
   }
   return newArray;
   }
+  
+  johnLennonFacts();
