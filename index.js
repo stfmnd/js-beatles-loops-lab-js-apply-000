@@ -34,6 +34,7 @@ const facts = [
   
 // Task 3 
 function iLoveTheBeatles(num) {
+  do {
   var emptyArray = [];
   emptyArray[i].push(`"I love the Beatles!"`)
 }
