@@ -30,3 +30,4 @@ function johnLennonFacts(fact) {
   return newFacts
 }
 
+johnLennonFacts();
