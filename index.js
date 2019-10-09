@@ -30,4 +30,4 @@ const facts = [
   return newArray;
   }
   
-  johnLennonFacts();
+  johnLennonFacts(facts);
